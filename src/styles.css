@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+section {
+  padding: 1rem;
+}
+
+section:nth-of-type(2n - 1) {
+  background-color: rgb(240, 240, 240);
+}
+
+ul {
+  margin: auto;
+  width: fit-content;
+  padding: 0;
+}
+
+ul > li {
+  text-align: left;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+/* ---------- 1-TABS ------------ */
+
+.tabs-container {
+  width: 23rem;
+  margin: auto;
+}
+
+.tab-buttons {
+  display: flex;
+}
+
+.tab-details {
+  border: 1px solid gray;
+  padding: 1rem;
+}
+
+.tab-buttons button {
+  background-color: #91ef8f;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+.tab-buttons button:hover {
+  cursor: pointer;
+}
+
+/* ---------- 3-Card ------------ */
+
+.card {
+  border: 1px solid black;
+  padding: 2rem;
+  margin: auto;
+  height: 200px;
+  width: fit-content;
+}
+
+/* ---------- 6-Tweets ------------ */
+
+.tweet-card {
+  margin: auto;
+  border: 2px solid skyblue;
+  margin-bottom: 1rem;
+  width: 80%;
+  text-align: center;
+}
